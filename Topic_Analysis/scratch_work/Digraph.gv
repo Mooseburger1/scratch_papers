@@ -1,0 +1,13 @@
+digraph {
+	a [label=24]
+	b [label=12]
+	c [label=2]
+	d [label=6]
+	e [label=3]
+	a -> b
+	a -> c
+	b -> d
+	b -> c
+	d -> e
+	d -> c
+}
